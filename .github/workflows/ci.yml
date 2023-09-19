@@ -29,5 +29,4 @@ jobs:
           ruff --format=github --target-version=py37 .
       - name: Test with pytest
         run: |
-          cd app_python
-          python3 testing.py
+          run -v test
